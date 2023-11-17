@@ -1,0 +1,22 @@
+{
+  "sys_user_001": "User Name",
+  "sys_user_002": "Email",
+  "sys_user_003": "Phone",
+  "sys_user_004": "Created Time",
+  "sys_user_005": "Status",
+  "sys_user_006": "Name",
+  "sys_user_007": "Update Time",
+  "sys_user_008": "Role",
+  "sys_user_009": "Login Name",
+  "sys_user_010": "User List",
+  "sys_user_011": "账号由6-25位字符组成,首个字符需是字母",
+  "sys_user_012": "User Information",
+  "sys_user_013": "User Name 只能是字母、数字或组合，且不能数字开头",
+  "sys_user_confim_001": "确认是否要启用此用户，启用后此用户将可以正常登录系统，确认继续操作吗？",
+  "sys_user_confim_002": "确认是否要禁用此用户，禁用后此用户将无法登录系统，确认继续操作吗？",
+  "sys_user_confim_003": "请注意，禁用用户可能会影响此用户相关的业务和权限，如果确认需要禁用此用户，请谨慎操作",
+  "sys_user_confim_004": "确认是否要重置此用户的密码，重置后此用户需要使用新的密码登录系统，确认继续操作吗？",
+  "sys_user_confim_005": "请注意，重置用户密码可能会影响此用户相关的业务和权限，如果确认需要重置此用户密码，请谨慎操作",
+  "sys_user_confim_006": "确认是否要删除此用户，删除后此用户将无法登录系统，确认继续操作吗？",
+  "sys_user_confim_007": "请注意，删除用户可能会影响此用户相关的业务和权限，如果确认需要删除此用户，请谨慎操作"
+}

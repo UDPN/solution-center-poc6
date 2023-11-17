@@ -1,0 +1,107 @@
+@keyframes swalertMask {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes swalertMask {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.swalertMaskAnimation {
+    animation-name: swalertMask;
+    animation-duration: 300ms;
+}
+
+@keyframes swalertMaskMove {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes swalertMaskMove {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.swalertMaskMoveAnimation {
+    animation-name: swalertMaskMove;
+    animation-duration: 300ms;
+}
+
+@keyframes swalert {
+    0% {
+        opacity: 0;
+        scale: .95;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes swalert {
+    0% {
+        opacity: 0;
+        scale: .95;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.swalertAnimation {
+    animation-name: swalert;
+    animation-duration: 300ms;
+}
+
+@keyframes swalertMove {
+    0% {
+        opacity: 1;
+        scale: 1;
+    }
+    100% {
+        opacity: 0;
+        scale: .95;
+    }
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes swalertMove {
+    0% {
+        opacity: 1;
+        scale: 1;
+    }
+    100% {
+        opacity: 0;
+        scale: .95;
+    }
+}
+
+.swalertMoveAnimation {
+    animation-name: swalertMove;
+    animation-duration: 300ms;
+}

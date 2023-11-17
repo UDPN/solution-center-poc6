@@ -1,0 +1,22 @@
+{
+    "contract_manage_000": "You can deploy the contract here and call the functions in the contract.",
+    "contract_manage_001": "Contract List",
+    "contract_manage_003": "Version",
+    "contract_manage_004": "Proxy Contract Address",
+    "contract_manage_005": "Contract Deployment List",
+    "contract_manage_007": "Logic Contract Address",
+    "contract_manage_008": "Version",
+    "contract_manage_009": "Proxy Contract",
+    "contract_manage_010": "Repository Management Contract",
+    "contract_manage_011": "Wallet Management Contract",
+    "contract_manage_012": "CBDC Management Contract",
+    "contract_manage_013": "The version is composed of letters, numbers and symbols, and is no more than 20 characters.",
+    "contract_manage_014": "File",
+    "contract_manage_015": "Please upload the **** file, the file size cannot exceed 1MB.",
+    "contract_manage_017": "Upload the new abi and bin files to upgrade the contract. After creating the task, please go to the task deployment list to upgrade the contract.",
+    "contract_manage_018": "After creating the deployment task, you need to go to the task deployment list to deploy the contract.",
+    "contract_manage_019": "Please wait for existing deployment tasks to complete before submitting a new request.",
+    "contract_manage_020": "Redeploying, please wait",
+    "contract_manage_021": "Contract Deployment File",
+    "contract_manage_022": "**** has reached the file size limit of [1] MB."
+}

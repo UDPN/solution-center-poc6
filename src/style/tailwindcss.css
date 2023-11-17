@@ -1,0 +1,178 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+html,
+body,
+#__next,
+#__next > div {
+    font-size: 16PX;
+    @apply h-full w-full !font-sans;
+}
+
+body *{
+  font-family: sans-serif !important;
+}
+
+/* 节流 */
+.throttle {
+    animation: throttlefn 3s step-end forwards;
+}
+
+.throttle:active {
+    animation: none;
+}
+
+@keyframes throttlefn {
+    from {
+        pointer-events: none;
+    }
+
+    to {
+        pointer-events: all;
+    }
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+    border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+    border-top: none;
+
+}
+
+.textCenter * {
+    text-align: center !important;
+}
+
+.ant-modal-close {
+    @apply h-11 w-11 !important;
+    background-color: #F4F9FD !important;
+}
+
+.ant-menu-item-group-list .ant-menu-item.ant-menu-item-only-child {
+    padding-left: 0 !important;
+}
+.ant-menu-submenu-title{
+  font-weight: bold;
+}
+.ant-menu-item{
+  padding-left: 24px!important;
+}
+.ant-table-thead > tr > th {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.ant-menu-submenu-selected > div{
+  background: linear-gradient(90deg, #60A3CE -5.58%, #3C5686 108.84%);
+  color: white !important;
+}
+
+.ant-menu-sub{
+  background: white !important;
+}
+.ant-upload-select{
+  width: 100%;
+}
+.home-refresh{
+  background-image: url('/stablecoin/images/refresh.svg');
+  background-size: contain;
+  background-position: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.rotate-scale-down {
+  -webkit-animation: rotate-scale-down 0.65s linear both;
+  animation: rotate-scale-down 0.65s linear both;
+}
+@-webkit-keyframes rotate-scale-down {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(0.5) rotateZ(-180deg);
+    transform: scale(0.5) rotateZ(-180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(-360deg);
+    transform: scale(1) rotateZ(-360deg);
+  }
+}
+@keyframes rotate-scale-down {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(0.5) rotateZ(-180deg);
+    transform: scale(0.5) rotateZ(-180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(-360deg);
+    transform: scale(1) rotateZ(-360deg);
+  }
+}
+/*
+.ant-menu-submenu-open>.ant-menu.ant-menu-sub.ant-menu-inline:not(:has(>.ant-menu-item-group)) {
+  position: relative;
+}
+
+.ant-menu-submenu-open>.ant-menu.ant-menu-sub.ant-menu-inline:not(:has(>.ant-menu-item-group))::before {
+  content: "";
+  position: absolute;
+  top: 0rem;
+  left: 2.6rem;
+  width: 1px;
+  height: calc(100% - 1.6rem);
+  color: #7B7B7B;
+  background-color: #7B7B7B;
+}
+
+.ant-menu-submenu-open>.ant-menu.ant-menu-sub.ant-menu-inline>.ant-menu-item {
+  @apply pl-14 !important;
+  position: relative;
+}
+
+.ant-menu-submenu-open>.ant-menu.ant-menu-sub.ant-menu-inline>.ant-menu-item::before {
+  content: "";
+  position: absolute;
+  top: 1.2rem;
+  left: 2.4rem;
+  width: 10px;
+  height: 1px;
+  color: #7B7B7B;
+  background-color: #7B7B7B;
+}
+
+.ant-menu-submenu-open .ant-menu-item-group {
+  position: relative;
+}
+
+.ant-menu-submenu-open .ant-menu-item-group::before {
+  content: "";
+  position: absolute;
+  top: 2.6rem;
+  left: 2.6rem;
+  width: 1px;
+  height: calc(100% - 3.9rem);
+  color: #7B7B7B;
+  background-color: #7B7B7B;
+}
+
+.ant-menu-submenu-open .ant-menu-item-group>.ant-menu-item-group-list>li {
+  @apply pl-14 !important;
+  position: relative;
+}
+
+.ant-menu-submenu-open .ant-menu-item-group>.ant-menu-item-group-list>li::before {
+  content: "";
+  position: absolute;
+  top: 1.2rem;
+  left: 2.4rem;
+  width: 10px;
+  height: 1px;
+  color: #7B7B7B;
+  background-color: #7B7B7B;
+}
+*/

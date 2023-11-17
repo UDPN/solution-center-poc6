@@ -1,0 +1,20 @@
+{
+    "cbdc_mangement_0000": "Plan ID",
+    "cbdc_mangement_0001": "Plan Name",
+    "cbdc_mangement_0002": "CBDC Name",
+    "cbdc_mangement_0003": "Planned Date",
+    "cbdc_mangement_0004": "Approval Date",
+    "cbdc_mangement_0005": "Minting List",
+    "cbdc_mangement_0006": "CBDC Symbol",
+    "cbdc_mangement_0007": "Planned Minting Amount",
+    "cbdc_mangement_0008": "Are you sure you want to delete this CBDC Issuance Plan?",
+    "cbdc_mangement_0009": "INR",
+    "cbdc_mangement_0010": "Quota List",
+    "cbdc_mangement_0011": "Issued Amount",
+    "cbdc_mangement_0012": "Plan Type",
+    "cbdc_mangement_0013": "Quota",
+    "cbdc_mangement_0014": "Assigned Time",
+    "PUB_AssignedDate": "Assigned Date",
+    "PUB_NewPlan": "New Plan",
+    "PUB_NewQuota": "New Quota"
+}

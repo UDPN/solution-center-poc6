@@ -1,0 +1,22 @@
+{
+  "sys_user_001": "Username",
+  "sys_user_002": "Email",
+  "sys_user_003": "Phone",
+  "sys_user_004": "Created Time",
+  "sys_user_005": "Status",
+  "sys_user_006": "Name",
+  "sys_user_007": "Update Time",
+  "sys_user_008": "Role",
+  "sys_user_009": "Login Name",
+  "sys_user_010": "User List",
+  "sys_user_011": "The account is combined with 6-25 characters, with the first character of letter.",
+  "sys_user_012": "User Information",
+  "sys_user_013": "The username can only be the combine of letters and numbers, and the first character cannot be a number.",
+  "sys_user_confim_001": "Are you sure you want to enable this user? Once enabled, this user will be able to log in to the system normally. Are you sure you want to continue?",
+  "sys_user_confim_002": "Are you sure you want to disable this user? After disabling, this user will not be able to log in to the system. Are you sure you want to continue?",
+  "sys_user_confim_003": "Please note that disabling a user may affect their related business and permissions. If you confirm to disable this user, please proceed with caution.",
+  "sys_user_confim_004": "Are you sure you want to reset this user's password? After resetting, this user will need to log in to the system with a new password. Are you sure you want to continue?",
+  "sys_user_confim_005": "Please note that resetting a user's password may affect their related business and permissions. If you confirm to reset this user's password, please proceed with caution.",
+  "sys_user_confim_006": "Are you sure you want to delete this user? After deletion, this user will not be able to log in to the system. Are you sure you want to continue?",
+  "sys_user_confim_007": "Please note that deleting a user may affect their related business and permissions. If you confirm to delete this user, please proceed with caution."
+}

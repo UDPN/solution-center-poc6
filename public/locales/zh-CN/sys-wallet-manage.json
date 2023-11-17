@@ -1,0 +1,10 @@
+{
+    "sys-wallet-manage-001":"Configure Keystore File",
+    "sys-wallet-manage-002":"Keystore File",
+    "sys-wallet-manage-003":"Keystore Password",
+    "sys-wallet-manage-004":"Verify Keystore Password",
+    "sys-wallet-manage-005":"Please upload the keystore file, the file size cannot exceed 50KB.",
+    "sys-wallet-manage-006":"If you forget the keystore password, you can delete the keystore information and configure it again.",
+    "sys-wallet-manage-007":"Upload",
+    "":""
+}

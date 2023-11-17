@@ -1,0 +1,23 @@
+{
+    "sys-wallet-manage-003":"Keystore Password",
+    "sys-wallet-manage-004":"Verify Keystore Password",
+    "sys-wallet-manage-005":"Please upload the keystore file, the file size cannot exceed 50KB.",
+    "sys-wallet-manage-006":"If you forget the keystore password, you can delete the keystore information and configure it again.",
+    "sys-wallet-manage-007":"Upload",
+    "sys-wallet-manage-008":"Are you sure you want to delete the keystore information?",
+    "sys_wallet__poc4_0000": "Business Wallet Management",
+    "sys_wallet_manage_001" : "Configure Keystore File",
+    "sys_wallet_manage_002" : "Configuration Information",
+    "sys_wallet__poc4_0003" : "Reconfigure Keystore File",
+    "sys_wallet__poc4_0004" : "Keystore File",
+    "sys_wallet__poc4_0005" : "Please upload the keystore file, the file size cannot exceed 50KB",
+    "sys_wallet__poc4_0006" : "Please upload the keystore file",
+    "sys_wallet__poc4_0007" : "Keystore Password",
+    "sys_wallet__poc4_0008" : "The password must contain 6 to 10 letters and numbers",
+    "sys_wallet__poc4_0009" : "Please enter keystore password",
+    "sys_wallet__poc4_0010" : "Verify Keystore Password",
+    "sys_wallet__poc4_0011" : "Please enter the verified keystore password",
+    "sys_wallet__poc4_0012" : "If you forget the keystore password, you can delete the keystore information and configure it again.",
+    "sys_wallet__poc4_0013" : "Business Wallet Address",
+    "":""
+}

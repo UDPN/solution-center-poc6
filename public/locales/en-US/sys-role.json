@@ -1,0 +1,15 @@
+{
+    "sys_role_002": "Role Name",
+    "sys_role_003": "Role List",
+    "sys_role_004": "No.",
+    "sys_role_005": "Description",
+    "sys_role_006": "Add Role Information",
+    "sys_role_007": "Edit Role Information",
+    "sys_role_008": "Permission List",
+    "sys_role_009": "Role Information",
+    "sys_role_confim_001": "Are you sure you want to enable this role? Once enabled, users can use this function. Are you sure you want to continue?",
+    "sys_role_confim_002": "Are you sure you want to disable this role? Disabling it will affect user access and functionality. Are you sure you want to continue?",
+    "sys_role_confim_003": "Please note that disabling a role may affect the relevant business and permissions of this user. If you confirm to disable this role, please proceed with caution.",
+    "sys_role_confim_004": "Are you sure you want to delete this role? Deleting it will affect user access and functionality. Are you sure you want to continue?",
+    "sys_role_confim_005": "Please note that deleting a role may affect the relevant business and permissions of this user. If you confirm to delete this role, please proceed with caution."
+}

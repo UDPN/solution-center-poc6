@@ -1,0 +1,14 @@
+{
+    "note_0000":"Throttling function",
+    "note_0001":"Executed callback function",
+    "note_0002":"Interval time",
+    "note_0003":"Storing Data to LocalStorage",
+    "note_0004":"Determine if it is a mobile terminal",
+    "note_0005":"Determine whether the value is a valid value. Both undefined | null | '' and '' are invalid values",
+    "note_0006":"Receive query and return query (post decryption)",
+    "note_0007":"Verify interface code===0, return",
+    "note_0008":"Interface res array | null, returns without verification when null",
+    "note_0009":"Next export props attribute verification function",
+    "note_0010":"Verify that the username is between 6 and 25 characters, with the first letter being a letter",
+    "note_0011":"Error return"
+}
