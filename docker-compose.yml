@@ -1,0 +1,9 @@
+version: '3'
+services:
+  solution-center-poc6-6012:
+    image: solution-poc6:v1
+    build: ./
+    container_name: solution-center-poc6-6012
+    restart: always
+    ports:
+      - 6012:3000
