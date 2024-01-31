@@ -6,4 +6,4 @@ services:
     container_name: solution-center-poc6-6012
     restart: always
     ports:
-      - 6012:3000
+      - 6013:3000
