@@ -2,8 +2,8 @@
 /*
  * @Author: dongwei
  * @Date: 2023-07-26 11:08:43
- * @LastEditors: huangyuexia
- * @LastEditTime: 2023-09-20 09:31:53
+ * @LastEditors: W·S
+ * @LastEditTime: 2024-01-31 10:59:38
  * @Description: Description
  */
 import { getServerSidePropsResult } from 'libs/utils';
@@ -30,7 +30,8 @@ const SOLURIONS: NextPage = () => {
     key: React.Key,
     icon?: React.ReactNode,
     children?: MenuItem[],
-    type?: 'group'
+    type?: 'group',
+    disabled?: boolean
   ): MenuItem {
     return {
       key,
@@ -38,12 +39,23 @@ const SOLURIONS: NextPage = () => {
       children,
       label,
       type,
+      disabled,
     } as MenuItem;
   }
   const { Sider, Content } = Layout;
   const items: MenuProps['items'] = useMemo(() => {
     return [
       getItem('Tutorial', 'sub1', null, [
+        getItem('Video', '1', null, [], 'group', true),
+        getItem(
+          'System Diagram',
+          // </a>,
+          '3',
+          null,
+          [],
+          'group',
+          true
+        ),
         getItem(
           <a
             href="/static/UDPN PoC Use Case 6-Enabling Gasless Transactions Using Public Chain-based Stablecoins-User Manual.pdf"
@@ -52,7 +64,57 @@ const SOLURIONS: NextPage = () => {
           >
             User Manual
           </a>,
-          '1'
+          '4'
+        ),
+        getItem(
+          'Solution Description',
+          // </a>,
+          '5',
+          null,
+          [],
+          'group',
+          true
+        ),
+      ]),
+
+      getItem('Technical Documentation', 'sub2', null, [
+        getItem(
+          <a
+            href="/static/POC6 API.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            API Documentation
+          </a>,
+          '6'
+        ),
+        getItem(
+          // <a
+          //   href="/static/POC3 Test Report.pdf"
+          //   target="_blank"
+          //   rel="noopener noreferrer"
+          // >
+          'Github',
+          // </a>,
+          '7',
+          null,
+          [],
+          'group',
+          true
+        ),
+        getItem(
+          // <a
+          //   href="/static/POC3 Test Report.pdf"
+          //   target="_blank"
+          //   rel="noopener noreferrer"
+          // >
+          'Test Report',
+          // </a>,
+          '8',
+          null,
+          [],
+          'group',
+          true
         ),
       ]),
       getItem(<span className="font-bold">Demo System</span>, '2'),
@@ -135,6 +197,7 @@ const SystemContent = (props: BCMP.Objects) => {
     </>
   );
 };
+
 export default SOLURIONS;
 
 export const getServerSideProps: GetServerSideProps = async ({ locale }) => {
