@@ -58,7 +58,7 @@ const SOLURIONS: NextPage = () => {
         ),
         getItem(
           <a
-            href="/static/UDPN PoC Use Case 6-Enabling Gasless Transactions Using Public Chain-based Stablecoins-User Manual.pdf"
+            href="/static/PoC6 Operation Manual-En.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
