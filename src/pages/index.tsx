@@ -89,28 +89,9 @@ const SOLURIONS: NextPage = () => {
           '6'
         ),
         getItem(
-          // <a
-          //   href="/static/POC3 Test Report.pdf"
-          //   target="_blank"
-          //   rel="noopener noreferrer"
-          // >
           'Github',
           // </a>,
           '7',
-          null,
-          [],
-          'group',
-          true
-        ),
-        getItem(
-          // <a
-          //   href="/static/POC3 Test Report.pdf"
-          //   target="_blank"
-          //   rel="noopener noreferrer"
-          // >
-          'Test Report',
-          // </a>,
-          '8',
           null,
           [],
           'group',
