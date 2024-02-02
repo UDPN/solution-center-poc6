@@ -11,5 +11,5 @@ export const developmentLink = {
 
 // pre
 export const productionLink = {
-  Poc6System: 'http://213.35.109.168:5110/',
+  Poc6System: 'https://pre-use1web-poc6.udpn.io/',
 };
