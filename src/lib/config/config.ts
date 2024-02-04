@@ -1,8 +1,8 @@
 /*
  * @Author: dongwei
  * @Date: 2023-07-28 15:38:21
- * @LastEditors: songyinan songyinan@reddatetech.com
- * @LastEditTime: 2023-09-08 14:21:51
+ * @LastEditors: zhangxuefeng
+ * @LastEditTime: 2024-02-04 14:25:57
  * @Description: Description
  */
 export const developmentLink = {
@@ -11,5 +11,5 @@ export const developmentLink = {
 
 // pre
 export const productionLink = {
-  Poc6System: 'https://pre-use1web-poc6.udpn.io/',
+  Poc6System: 'https://poc6-web.udpn-poc6.svc.cluster.local:80/',
 };
